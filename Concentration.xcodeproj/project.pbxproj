@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22A18E3A216ED24F006E29DA /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A18E39216ED24F006E29DA /* Concentration.swift */; };
+		22A18E3C216ED308006E29DA /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A18E3B216ED308006E29DA /* Card.swift */; };
 		22D1035A216AE489002642A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D10359216AE489002642A3 /* AppDelegate.swift */; };
 		22D1035C216AE489002642A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1035B216AE489002642A3 /* ViewController.swift */; };
 		22D1035F216AE489002642A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D1035D216AE489002642A3 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22A18E39216ED24F006E29DA /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		22A18E3B216ED308006E29DA /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		22D10356216AE489002642A3 /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D10359216AE489002642A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22D1035B216AE489002642A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,14 +58,24 @@
 		22D10358216AE489002642A3 /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				22D10359216AE489002642A3 /* AppDelegate.swift */,
 				22D1035B216AE489002642A3 /* ViewController.swift */,
 				22D1035D216AE489002642A3 /* Main.storyboard */,
-				22D10360216AE48B002642A3 /* Assets.xcassets */,
-				22D10362216AE48B002642A3 /* LaunchScreen.storyboard */,
+				22A18E39216ED24F006E29DA /* Concentration.swift */,
+				22A18E3B216ED308006E29DA /* Card.swift */,
+				22D1036B216AE62A002642A3 /* Supporting Files */,
 				22D10365216AE48B002642A3 /* Info.plist */,
 			);
 			path = Concentration;
+			sourceTree = "<group>";
+		};
+		22D1036B216AE62A002642A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22D10359216AE489002642A3 /* AppDelegate.swift */,
+				22D10360216AE48B002642A3 /* Assets.xcassets */,
+				22D10362216AE48B002642A3 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,8 @@
 			files = (
 				22D1035C216AE489002642A3 /* ViewController.swift in Sources */,
 				22D1035A216AE489002642A3 /* AppDelegate.swift in Sources */,
+				22A18E3A216ED24F006E29DA /* Concentration.swift in Sources */,
+				22A18E3C216ED308006E29DA /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -141,11 +141,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KdM-sG-aur">
-                                <rect key="frame" x="154" y="622" width="106" height="38"/>
+                                <rect key="frame" x="154" y="621" width="106" height="39"/>
                                 <color key="backgroundColor" red="1" green="0.53042159749999995" blue="0.1644467412" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="38" id="SCm-WW-PdN"/>
-                                </constraints>
+                                <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="New Game">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -160,7 +158,6 @@
                             <constraint firstItem="ON7-8f-bhg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="3Nm-Wb-C46"/>
                             <constraint firstItem="KdM-sG-aur" firstAttribute="centerX" secondItem="lqc-qI-npA" secondAttribute="centerX" id="9CO-p6-VVL"/>
                             <constraint firstItem="ON7-8f-bhg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Fc0-7u-ANA"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lqc-qI-npA" secondAttribute="bottom" constant="20" id="Nnb-7Z-yMH"/>
                             <constraint firstItem="lqc-qI-npA" firstAttribute="top" secondItem="KdM-sG-aur" secondAttribute="bottom" constant="8" symbolic="YES" id="PiF-bF-Eat"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lqc-qI-npA" secondAttribute="bottom" constant="20" id="mLB-TM-JBM"/>
                             <constraint firstItem="lqc-qI-npA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="qN4-vc-B0b"/>

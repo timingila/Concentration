@@ -28,7 +28,7 @@ class ViewController: UIViewController
             game.chooseCard(at: cardNumber)
             updateViewFromModel()
         } else {
-            print("Chosen car was not in cardButtons array")
+            print("Chosen card was not in cardButtons array")
         }
     }
     

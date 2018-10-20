@@ -159,6 +159,7 @@
                             <constraint firstItem="KdM-sG-aur" firstAttribute="centerX" secondItem="lqc-qI-npA" secondAttribute="centerX" id="9CO-p6-VVL"/>
                             <constraint firstItem="ON7-8f-bhg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Fc0-7u-ANA"/>
                             <constraint firstItem="lqc-qI-npA" firstAttribute="top" secondItem="KdM-sG-aur" secondAttribute="bottom" constant="8" symbolic="YES" id="PiF-bF-Eat"/>
+                            <constraint firstItem="KdM-sG-aur" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ON7-8f-bhg" secondAttribute="bottom" constant="8" symbolic="YES" id="lsU-ov-CPw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lqc-qI-npA" secondAttribute="bottom" constant="20" id="mLB-TM-JBM"/>
                             <constraint firstItem="lqc-qI-npA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="qN4-vc-B0b"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ON7-8f-bhg" secondAttribute="trailing" constant="16" id="roE-rn-GGk"/>
@@ -183,7 +184,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="132" y="133.5832083958021"/>
+            <point key="canvasLocation" x="131.8840579710145" y="132.88043478260872"/>
         </scene>
     </scenes>
 </document>
